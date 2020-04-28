@@ -4,7 +4,6 @@
 #include "record.h"
 
 // function prototypes
-int defragment(Record[]);
-void display_stats(Record[]);
+void namesearch(Record *records, int num);
 
 #endif

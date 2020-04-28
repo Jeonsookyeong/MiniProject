@@ -23,13 +23,15 @@ void display_stats(Record records[]){
 }*/
 
 
-void namesearch(Record *records)
+// TODO: Add more functions to fulfill the optional requirements
+
+void namesearch(Record *records, int num)
 {
-   int i,j;
-    char search[100];
+    int i,j;
+    char search[SIZE];
     char q;
-    /*do{*/
-        printf("Name to be searched:");
+    
+        printf("\nName to be searched:");
         scanf("%s",search);
         for (i=0;i<MAX_RECORDS;i++)
         {
@@ -52,6 +54,3 @@ void namesearch(Record *records)
             }
 
         }
- 
-
-// TODO: Add more functions to fulfill the optional requirements
