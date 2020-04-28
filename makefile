@@ -1,4 +1,4 @@
-.out: base.o main.o extras.o
+a.out: base.o main.o extras.o
 
    gcc -o a.out base.o main.o extras.o
 
