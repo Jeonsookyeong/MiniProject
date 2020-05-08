@@ -12,10 +12,8 @@ project title: Management system for HGU students
    
 1.void display_menu() : This function display menu to select.   
 '''c
+#include <stdio.h>
 void display_menu(){
-
-	// TODO: Modify this function as you need
-
   printf("******************************\n");
   printf(" Membership management system \n");
   printf("******************************\n");
