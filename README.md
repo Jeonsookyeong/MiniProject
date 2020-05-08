@@ -4,7 +4,7 @@ project title: Management system for HGU students
   1.void display_menu()   
   2.void input_handler(char input[], Record records[])   
   3.void initial(Record *records)   
-  4.void add_a_rcord(Record[])   
+  4.void add_a_record(Record[])   
   5.void print_all_records(Record[])   
   6.void update_member(Record[])   
   7.void delete_a_member(Record[])   
@@ -64,7 +64,7 @@ void initial(Record *records){
   }
 }
 ```   
-4.void add_a_rcord(Record[]):   
+4.void add_a_record(Record[]):   
 This function adds a new data from standard input and creates the member record and open file “record.txt” and export the entire data in a report format as a .txt file.   
 ```c
 void add_a_record(Record *records){
