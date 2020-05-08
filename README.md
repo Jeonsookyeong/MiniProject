@@ -11,8 +11,7 @@ project title: Management system for HGU students
   8.void namesearch(Record *records, int num)   
    
 1.void display_menu() : This function display menu to select.   
-'''c
-#include <stdio.h>
+```c
 void display_menu(){
   printf("******************************\n");
   printf(" Membership management system \n");
@@ -24,6 +23,6 @@ void display_menu(){
   printf(" 5. Search\n");
   printf(" 99. Quit\n");
 }
-'''
+```
   
 
