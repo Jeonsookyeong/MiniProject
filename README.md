@@ -1,4 +1,4 @@
-#MiniProject
+# MiniProject
 project title: Management system for HGU students
 * functions   
   1.void display_menu()   
