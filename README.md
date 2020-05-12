@@ -1,5 +1,8 @@
 # MiniProject
 project title: Management system for HGU students
+
+This project builds an information management system with CRUD functionalities. CRUD is the acronym for Create, Read, Update and Delete. Through this project, we can add a new member data and export the added member data to “record.txt” which is text file, print all member data added before, update member detail by two way: updating member’s Id, updating member’s Age, delete certain member data, and search through member name. This project manages HGU student information.
+
 * functions   
   1.void display_menu()   
   2.void input_handler(char input[], Record records[])   
