@@ -25,29 +25,29 @@ void display_stats(Record records[]){
 
 // TODO: Add more functions to fulfill the optional requirements
 
-void namesearch(Record *records, int num)
+// Supply the search code by HanulChoe
+void advanced_search(Record *records, int num)
 {
     int i,j;
     char search[SIZE];
     char q;
+    int search_id=0;
     
         printf("\nName to be searched:");
         scanf("%s",search);
+	printf("\nId to be searched:");
+	scanf("%d", &search_id);
+
         for (i=0;i<MAX_RECORDS;i++)
         {
-            if (strcmp(records[i].name,search) == 0)
+            if (strcmp(records[i].name,search) == 0 || records[i].id == search_id )
             {
-              
-               
                 printf("Name\tId\t\t\tAge\t\t\n");
- 
                 printf("%s\t",(records[i].name));
                 printf("%d\t",(records[i].id));
                 printf("%d\t",(records[i].age));
                 printf("\n\n");
-
             }
-
             else
               printf("There's no data about input name.\n");
               break;

@@ -48,14 +48,14 @@ void input_handler(char input[], Record records[]){
 		print_all_records(records);
 
 
-  else if(!strcmp(input, "3"))
+  	else if(!strcmp(input, "3"))
 		update_member(records);
 
-  else if(!strcmp(input, "4"))
+        else if(!strcmp(input, "4"))
 		delete_a_member(records);
 
 	else if(!strcmp(input, "5"))
-		namesearch(records, num);
+	       advanced_search(records, num);
 
 	else if(!strcmp(input, "99"))
 		printf("Terminating... bye!\n"); // Quit - no operation (an empty statement with a semi-colon)

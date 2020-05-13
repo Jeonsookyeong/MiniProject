@@ -4,6 +4,6 @@
 #include "record.h"
 
 // function prototypes
-void namesearch(Record *records, int num);
+void advanced_search(Record *records, int num);
 
 #endif
